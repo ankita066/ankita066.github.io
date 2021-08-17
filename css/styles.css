@@ -20,3 +20,7 @@ footer{
 .social-icon:hover i {
   transform: scale(1.2)
 }
+
+ul{
+  text-align: justify;
+}
