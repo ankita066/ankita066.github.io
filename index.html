@@ -6,24 +6,24 @@
         <meta name="description" content="" />
         <meta name="author" content="" />
         <title>Ankita Bhaumik</title>
-        <!-- Favicon-->
-        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	    <link rel="stylesheet" href="css/styles.css" />
         <!-- Font Awesome icons (free version)-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
         <!-- Academic icons-->
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
     </head>
     <body>
 
 <!-- Responsive navbar-->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <div class="container-fluid">
+<nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container">
         <a class="navbar-brand" href="index.html">Ankita Bhaumik</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="research.html">Research</a></li>
                 <li class="nav-item"><a class="nav-link" href="cv.html">CV</a></li>
@@ -32,8 +32,8 @@
     </div>
 </nav>
         <!-- Page content-->
-        <div class="container-fluid">
-        <div class="row align-items-center">
+        <div class="container">
+        <div class="row flex align-items-center">
 
             <div class="col-lg-4 text-center">
                 <img src="assets/img/profile.jpg"
@@ -41,12 +41,11 @@
                 alt="Profile picture"
                 width="300px"
                 height="350px"
-                >
-                
+                > 
             </div>
 
-            <div class="col-lg-7">
-            <p align="justify">
+            <div class="col-lg-8 text-center">
+            <p>
                 I am a Computer Science PhD student at Rensselaer Polytechnic Institute, Troy, New York. My interests broadly lie in
                 the areas of Safe and Trustworthy AI and the applications of Natural Language Processing in modelling human emotions.
                 The satisfaction I derive when I am able to solve a problem that has a strong societal impact has always 
@@ -54,12 +53,12 @@
                 Find more details of my current research <a href=research.html>here</a>.
             </p>
 
-            <p align="justify">
+            <p>
                 Prior to this, I have completed my Master's degree from the University of Calcutta with Dr. Nabendu Chaki as
                 my thesis advisor. I have also received my Bachelor's degree in Computer Science from St.&nbsp;Xavier's College, Kolkata, India.
             </p>
 
-            <p align="justify">
+            <p>
                 Outside my work hours I am an avid reader of biographies, mystery and crime fiction. Eating and cooking is what keeps
                 me sane and blissful among all the chaos around!
             </p>
@@ -68,19 +67,19 @@
     </div>
 
  <!-- Footer links-->  
-     <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-opacity-50 fixed-bottom">
-        <div class="container-fluid">
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link" href="https://github.com/ankita066"><i class="fa fa-github fa-2x"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/ankita-bhaumik-099558124"><i class="fa fa-linkedin-square fa-2x"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://scholar.google.com/citations?user=F2chFekAAAAJ&hl=enl"><i class="ai ai-google-scholar-square ai-2x"></i></a></li>
-                    <li class="nav-item"><a class="nav-link" href="https://twitter.com/ankitabhaumik3"><i class="fa fa-twitter fa-2x"></i></a></li>
-                </ul>
+    <footer class="card-footer bg-light">
+        <div class="container">
+            <div class="row d-flex align-items-center">
+                <div class="col-md-12 text-right ">
+                    <a href="https://github.com/ankita066" class="social-icon"><i class="fa fa-github fa-2x text-black-50 mr-4"></i></a>
+                    <a href="https://www.linkedin.com/in/ankita-bhaumik-099558124" class="social-icon"><i class="fa fa-linkedin-square fa-2x text-black-50 mr-4"></i></a>
+                    <a href="https://scholar.google.com/citations?user=F2chFekAAAAJ&hl=enl" class="social-icon"><i class="ai ai-google-scholar-square ai-2x text-black-50 mr-4"></i></a>
+                    <a href="https://twitter.com/ankitabhaumik3" class="social-icon"><i class="fa fa-twitter fa-2x text-black-50 mr-4"></i></a>
+                </div>
             </div>
         </div>
-    </nav>
+    </footer>
+
 
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
