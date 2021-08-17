@@ -23,5 +23,8 @@ footer{
 
 ul{
   text-align: justify;
-  align-content: justify;
+}
+
+li{
+  text-align: justify;
 }
