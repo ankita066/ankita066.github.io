@@ -27,4 +27,9 @@ ul{
 
 li{
   text-align: justify;
+  /*padding-top: 1em;*/
+}
+
+a{
+  color: #3498DB;
 }
