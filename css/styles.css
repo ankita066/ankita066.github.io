@@ -41,11 +41,13 @@ li{
 }
 
 a {
-  color: #3498DB;
+    color: #3399FF;
+/*  color: #3498DB;*/
 }
 
 .navbar {
     margin-bottom: 30px; /* Adjust the value to increase or decrease the space */
+/*    background-color: #264C71; */
 }
 
 h1, h2 {
