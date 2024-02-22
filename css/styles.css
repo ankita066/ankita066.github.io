@@ -23,6 +23,7 @@ footer{
 
 ul{
   text-align: justify;
+  margin-bottom: 20px; 
 }
 
 li{
@@ -30,6 +31,24 @@ li{
   /*padding-top: 1em;*/
 }
 
-a{
+#publications li{
+  margin-bottom: 20px; 
+  margin-left: -40px;
+}
+
+#exp li{
+  margin-left: -40px;
+}
+
+a {
   color: #3498DB;
 }
+
+.navbar {
+    margin-bottom: 30px; /* Adjust the value to increase or decrease the space */
+}
+
+h1, h2 {
+    margin-top: 20px; /* Adjust the value to increase or decrease the space */
+}
+
